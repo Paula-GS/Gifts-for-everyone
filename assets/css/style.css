@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Cathiy Betiey';
+    src: local('CathiyBetiey'),
+        url('CathiyBetiey.woff2') format('woff2'),
+        url('CathiyBetiey.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ahoe';
+    src: local('Ahoe'), local('AhoeRegular'),
+        url('AhoeRegular.woff2') format('woff2'),
+        url('AhoeRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.cathy {
+    font-family: 'Cathiy Betiey';
+}
+
+.ahoe {
+    font-family: 'Ahoe';
+}
+
+.navbar {
+    background-color: #567a8a;
+}
+
+.title {
+    font-size: 5em;
+    color: #eca3af;
+}
+
+.title2 {
+    font-size: 3em;
+    color: #f0c57f;
+}
+
+.paragraph {
+    font-size: 1.5em;
+    color: #f2ebe2;
+    background-color: rgba(86, 122, 0138, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.card-title {
+    font-size: 2.5em;
+}
+
+.card-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
