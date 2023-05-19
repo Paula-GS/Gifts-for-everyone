@@ -1,47 +1,46 @@
+/* All the fonts MUST BE INSIDE the css folder, not in an aditional folder, not on a extra folder in the assets folder. Otherwise it won't work.*/
 @font-face {
-    font-family: 'Cathiy Betiey';
-    src: local('CathiyBetiey'),
-        url('CathiyBetiey.woff2') format('woff2'),
-        url('CathiyBetiey.woff') format('woff');
+    font-family: 'Belinda';
+    src: url('belindaavenue-regular.woff2') format('woff2'),
+         url('belindaavenue-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ahoe';
-    src: local('Ahoe'), local('AhoeRegular'),
-        url('AhoeRegular.woff2') format('woff2'),
-        url('AhoeRegular.woff') format('woff');
+    font-family: 'Galisha';
+    src: url('galisha_script.woff2') format('woff2'),
+         url('galisha_script.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
-.cathy {
-    font-family: 'Cathiy Betiey';
+.galisha{
+    font-family: 'Galisha', Georgia, Times, 'cursive';
 }
 
-.ahoe {
-    font-family: 'Ahoe';
-}
+.belinda {
+    font-family: 'Belinda', 'Times New Roman', Times,  Georgia, serif;
+    font-weight: normal;
+    font-style: normal;
+    }
 
 .navbar {
     background-color: #567a8a;
 }
 
 .title {
-    font-size: 5em;
+    font-size: 5.5em;
     color: #eca3af;
 }
 
 .title2 {
-    font-size: 3em;
+    font-size: 4em;
     color: #f0c57f;
 }
 
 .paragraph {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #f2ebe2;
     background-color: rgba(86, 122, 0138, 0.6); /*the 0.6 is the intensity of the background color*/
     border-radius: 10px; /*this is the roundness of the corner*/
@@ -54,16 +53,19 @@
 }
 
 .card-text {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    font-weight: bold;
 }
 
 .card-text, .card-title {
     text-align: center;
-   
+}
+
+.btn {
+    line-height: 1em;
+    padding-top: 18px;
 }
