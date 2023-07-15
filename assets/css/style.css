@@ -1,8 +1,8 @@
 /* All the fonts MUST BE INSIDE the css folder, not in an aditional folder, not on a extra folder in the assets folder. Otherwise it won't work.*/
 @font-face {
     font-family: 'Belinda';
-    src: url('belindaavenue-regular.woff2') format('woff2'),
-         url('belindaavenue-regular.woff') format('woff');
+    src: url('BelindaAvenue-regular.woff2') format('woff2'),
+         url('BelindaAvenue-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
